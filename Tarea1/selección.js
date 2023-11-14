@@ -2,6 +2,8 @@
 
 let array = [9, 3, 1, 4, 2, 8, 7, 6, 5];
 
+console.log(array);
+
 let min_pos, temp;
 let i;
 let n = array.length;
@@ -20,9 +22,13 @@ for(i = 0; i < n - 1; i++) {
     array[min_pos] = temp;
 }
 
+console.log(array);
+
 //! Opción 2
 
 // let array = [9, 3, 1, 4, 2, 8, 7, 6, 5];
+
+// console.log(array);
 
 // let min_pos, temp;
 // let i;
@@ -35,3 +41,5 @@ for(i = 0; i < n - 1; i++) {
 //     array[i] = min;
 //     array[min_pos] = temp;
 // }
+
+// console.log(array);

@@ -1,5 +1,7 @@
 let array = [9, 3, 1, 4, 2, 8, 7, 6, 5];
 
+console.log(array);
+
 let j, i;
 let n = array.length;
 let temp;
@@ -13,3 +15,6 @@ for (j = 1; j < n; j++) {
     }
     array[i+1] = temp;
 }
+
+
+console.log(array);
